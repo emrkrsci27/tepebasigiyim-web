@@ -23,7 +23,7 @@
     map.textContent = "Mağazamızı ziyaret etmek için bizimle iletişime geçin veya Instagram'dan yazın.";
   }
 
-  if (S.whatsapp) { var wa = document.getElementById("wa"); wa.href = "https://wa.me/" + S.whatsapp; wa.hidden = false; }
+  if (S.whatsapp) { var wa = document.getElementById("wa"); wa.href = "https://wa.me/" + S.whatsapp + "?text=" + encodeURIComponent("Merhaba, bilgi almak istiyorum."); wa.hidden = false; }
 
   var b = document.querySelector(".burger"), n = document.getElementById("nav");
   b.addEventListener("click", function () { var o = n.classList.toggle("open"); b.setAttribute("aria-expanded", o); });
