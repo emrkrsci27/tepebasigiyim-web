@@ -3,7 +3,7 @@
 Bağımlılıksız statik site (HTML/CSS/JS). Derleme gerekmez.
 
 ## Yayına alma
-- **Vercel/Netlify:** yeni proje oluştururken *Root Directory* = `sites/tepebasigiyim`, Framework = Other. Ardından `www.tepebasigiyim.com` domainini projeye ekleyip DNS'te `www` için CNAME (`cname.vercel-dns.com`) tanımlayın. `vercel.json` kök domaini `www`'ye yönlendirir.
+- **Vercel/Netlify:** bu repoyu içe aktarın, *Root Directory* boş kalsın, Framework = Other. Ardından `www.tepebasigiyim.com` domainini projeye ekleyip DNS'te `www` için CNAME (`cname.vercel-dns.com`) tanımlayın. `vercel.json` kök domaini `www`'ye yönlendirir.
 - **Klasik hosting:** bu klasörün içeriğini `public_html`'e yükleyin.
 
 ## Düzenleme
