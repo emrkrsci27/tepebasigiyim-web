@@ -3,7 +3,7 @@
 window.SITE = {
   name: "Tepebaşı Giyim Çarşısı",
   instagram: "tepebasigiyim",
-  phone: "",                            // örn: "0 (482) 000 00 00"
+  phone: "0535 255 03 47",
   whatsapp: "",                         // ülke koduyla, + ve boşluk olmadan: "905320000000"
   email: "",                            // örn: "info@tepebasigiyim.com"
   address: "Tepebaşı, 47460 Kızıltepe/Mardin",
